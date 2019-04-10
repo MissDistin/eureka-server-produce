@@ -1,0 +1,13 @@
+server:
+  port: 9001
+
+#注册到哪个服务中心上
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9000/eureka/
+
+#服务的名字
+spring:
+  application:
+    name: tinko_1
